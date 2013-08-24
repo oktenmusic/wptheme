@@ -169,6 +169,11 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Colo
 	margin-top:20px;
 	margin-bottom:20px;
 	background:#fff;
+	-moz-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*FF 3.5+*/
+	-webkit-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1)";/*IE 8*/
+	box-shadow: 1px 1px 1px #E1E1E1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1);/*IE 5.5-7*/
 }
 .buy-box h2{
 	font-family: 'Oswald';
@@ -197,4 +202,119 @@ font-size:12px;
 	background:#535961;
 	color:#fff;
 	text-decoration:none;
+}
+.block6{
+	margin:40px auto;
+	text-align:center;
+}
+
+.logo-ptf{
+	text-align:left;
+	margin-bottom:20px;
+	background: #FFFFFF;
+	-moz-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*FF 3.5+*/
+	-webkit-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1)";/*IE 8*/
+	box-shadow: 1px 1px 1px #E1E1E1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1);/*IE 5.5-7*/
+}
+.logo-ptf h3{
+	padding: 10px;
+	background:#535961;
+	color:#FFFFFF;
+	font-weight:200;
+	width:180px;
+	text-transform:uppercase;
+	font-family: 'Oswald';
+	margin-left:-15px;
+	-moz-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*FF 3.5+*/
+	-webkit-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1)";/*IE 8*/
+	box-shadow: 1px 1px 1px #E1E1E1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1);/*IE 5.5-7*/
+	
+}
+.thumbnail{
+	margin-bottom:20px;
+	border-radius:0px;
+		-moz-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*FF 3.5+*/
+	-webkit-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1)";/*IE 8*/
+	box-shadow: 1px 1px 1px #E1E1E1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1);/*IE 5.5-7*/
+	overflow:hidden;
+	border-bottom:4px solid #3498DB;
+}
+.thumbnail span{
+	font-size:25px;
+}
+.thumbnail h3{
+	font-family: 'Oswald';
+	font-weight:200;
+	font-size:25px;
+	color:#3498DB;
+}
+.thumbnail h3 a:hover{
+	text-decoration:none;
+	color:#535961;
+}
+.thumbnail p{
+	color:#7E8097;
+	font-size:12px;
+}
+.hrv{
+	transition:all 0.3s;
+	overflow:hidden;
+		-webkit-transition: all 0.5s ease;/* Safari 3.2+, Chrome */
+	-moz-transition: all 0.5s ease;/* Firefox 4-15 */
+	-o-transition: all 0.5s ease;/* Opera 10.5-12.00 */
+	transition: all 0.5s ease;/* Firefox 16+, Opera 12.50+ */
+}
+.ptf-hover{
+	position:absolute;
+	top:80px;
+	left:140px;
+	
+	display:none;
+	-webkit-transition: all 0.5s ease;/* Safari 3.2+, Chrome */
+	-moz-transition: all 0.5s ease;/* Firefox 4-15 */
+	-o-transition: all 0.5s ease;/* Opera 10.5-12.00 */
+	transition: all 0.5s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+
+.hrv:hover{
+	 opacity:0.6;
+}
+.hrv:hover .ptf-hover {
+	display:block;
+	transition:all 0.3s;
+	
+}
+.thumbnail > .hrv a > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+	transition:all 0.3s;
+}
+
+.btn-primary{
+	background: #3498DB;
+	border:none;
+	border-radius:0px;
+	transition:all 0.3s;
+}
+.btn-default{
+	background:#535961;
+	color:#fff;
+	border:none;
+	border-radius:0px;
+	transition:all 0.3s;
+}
+.btn{
+padding: 10px 15px;
+transition:all 0.3s;
+}
+.block7{
+	margin:40px 0;
 }
