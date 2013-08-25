@@ -5,10 +5,19 @@ body{
 	transition:all 0.4s;
 	
 }
-
+.form-control{
+	background:#F7F7F7;
+	color:#3498DB;
+	width:200px;
+	float:left;
+	transition:all 0.5s;
+}
+.form-control:focus{
+	width:210px;
+}
 .block1{
-	background: #3498DB;
-	color:#fff;
+	background: #fff;
+	color:#3498DB;
 	padding: 20px 5px 20px 5px;
 	-moz-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*FF 3.5+*/
 -webkit-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
@@ -317,4 +326,20 @@ transition:all 0.3s;
 }
 .block7{
 	margin:40px 0;
+}
+.src{
+	font-size:22px;
+	color:#fff;
+	background:#3498DB;
+	padding:6px;
+	transition:all 0.3s;
+			-moz-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*FF 3.5+*/
+	-webkit-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1)";/*IE 8*/
+	box-shadow: 1px 1px 1px #E1E1E1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1);/*IE 5.5-7*/
+}
+.src:hover{
+	background:#fff;
+	color:#3498DB;
 }
