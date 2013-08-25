@@ -13,7 +13,7 @@ body{
 	transition:all 0.5s;
 }
 .form-control:focus{
-	width:210px;
+	width:220px;
 }
 .block1{
 	background: #fff;
@@ -342,4 +342,70 @@ transition:all 0.3s;
 .src:hover{
 	background:#fff;
 	color:#3498DB;
+}
+.socials a{
+	width:50px;
+	padding:10px 15px;
+	font-size:23px;
+	background:#3498DB;
+	transition:all 0.3s;
+}
+.socials a:hover{
+	text-decoration:none;
+	background:#535961;
+}
+.feautures{
+	background:#fff;
+	height:100%;
+	margin:0 10px 10px 0;
+	padding:35px 10px 10px 10px;
+	-moz-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*FF 3.5+*/
+	-webkit-box-shadow: 0.5px 0.5px 0.5px #E1E1E1;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1)";/*IE 8*/
+	box-shadow: 1px 1px 1px #E1E1E1;
+	
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1);/*IE 5.5-7*/
+}
+.feautures i{
+	font-size:29px;
+	color:#535961;
+	padding-top:15px;
+}
+.feat{
+	margin-bottom:20px;
+	color:#535961;
+	font-size:14px;
+}
+.feautures span{
+	padding-top:-5px;
+}
+.feat1{
+	background:#3498DB;
+	width:55px;
+	padding:10px 0;
+	text-align:center;
+	transition:all 0.3s;
+}
+.feat1 i{
+	
+	color:#fff;
+}
+.feat-txt{
+	max-width:380px;
+	float: left;
+}
+.media h4{
+	font-family: 'Oswald';
+	font-weight:200;
+	font-size:18px;
+	color:#535961;
+}
+.media p{
+	color:#7E8097;
+	font-size:12px;
+}
+.feat1:hover{
+	text-decoration:none;
+	background:#535961;
+	
 }
