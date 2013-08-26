@@ -155,7 +155,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Colo
 }
 
 .block4 .box:hover img{
-	width:120px;
+	transform:scale(1.3,1.3);
 }
 
 .block4 .column p{
@@ -169,11 +169,7 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Colo
 	text-align:center;
 	
 }
-.col-md-3{
-	
-	padding-right:0px;
-	
-}
+
 .buy-box{
 	margin-top:20px;
 	margin-bottom:20px;
@@ -217,7 +213,7 @@ font-size:12px;
 	text-align:center;
 }
 
-.logo-ptf{
+.block-title{
 	text-align:left;
 	margin-bottom:20px;
 	background: #FFFFFF;
@@ -227,7 +223,7 @@ font-size:12px;
 	box-shadow: 1px 1px 1px #E1E1E1;
 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color=#E1E1E1);/*IE 5.5-7*/
 }
-.logo-ptf h3{
+.block-title h3{
 	padding: 10px;
 	background:#535961;
 	color:#FFFFFF;
@@ -274,16 +270,16 @@ font-size:12px;
 .hrv{
 	transition:all 0.3s;
 	overflow:hidden;
-		-webkit-transition: all 0.5s ease;/* Safari 3.2+, Chrome */
+	-webkit-transition: all 0.5s ease;/* Safari 3.2+, Chrome */
 	-moz-transition: all 0.5s ease;/* Firefox 4-15 */
 	-o-transition: all 0.5s ease;/* Opera 10.5-12.00 */
 	transition: all 0.5s ease;/* Firefox 16+, Opera 12.50+ */
 }
 .ptf-hover{
 	position:absolute;
-	top:80px;
-	left:140px;
-	
+	top:10px;
+	left:50%;
+	margin-left:-60px;
 	display:none;
 	-webkit-transition: all 0.5s ease;/* Safari 3.2+, Chrome */
 	-moz-transition: all 0.5s ease;/* Firefox 4-15 */
@@ -294,6 +290,7 @@ font-size:12px;
 
 .hrv:hover{
 	 opacity:0.6;
+	
 }
 .hrv:hover .ptf-hover {
 	display:block;
@@ -407,5 +404,79 @@ transition:all 0.3s;
 .feat1:hover{
 	text-decoration:none;
 	background:#535961;
+}
+.media i:hover{
+	transform:scale(1,2);
+}
+.thumbnail > .img-container > img{
+	max-width:100%;
+	height:auto;
+	transition:all 0.3s;
+}
+.thumbnail > .img-container > img:hover{
+	transform:scale(1.5,1.5);
+} 
+.img-container{
+	overflow:hidden;
+	position:relative;
+}
+.latest-post .thumbnail h3{
+	background:#535961;
+	color:#fff;
+	width:100%;
+	padding: 5px 10px;
+	font-size: 25px;
+}
+.latest-post .thumbnail .caption{
+	padding:9px 0;
+	margin-top:-25px;
+}
+.latest-post .rdm{
+	margin-bottom:-10px;
+	margin-right:-15px;
+	float:right;
+}
+.latest-post  p{
+	padding:0px 5px;
+}
+.date-tm{
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	background:#3498DB;
+	color:#fff;
+	padding: 0px 20px;
+}
+.date-tm h2{
+	font-family: 'Oswald';
+	font-weight:200;
+	margin:5px 0px;
+}
+.date-tm p{
+	color:#fff;
+}
+.arrows{
+	margin-right:0px;
+	display:inline;
+}
+.block-title{
+	position:relative;
+}
+.controls{
+	position:absolute;
+	right:0;
+	top:13px;
+	color:#fff;
+}
+.arrow i{
+	padding-left:20px;
+	background:#535961;
+	padding:15px;
+	color:#fff;
 	
+}
+.arrow i:hover{
+	text-decoration:none;
+	background: #3498DB;
+	transition:all 0.3s;
 }
